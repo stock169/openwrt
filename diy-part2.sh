@@ -11,6 +11,7 @@
 #
 
 # Modify default IP
+sudo apt install -y binutils bzip2 flex perl make find grep diff unzip gawk getopt subversion libz-dev and libc headers
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 #sed -i 's/4.3.9_v1.2.14/4.3.8_v1.2.14/g' package/lean/qBittorrent-static/Makefile
 rm -f feeds/packages/multimedia/minidlna/patches/005-added-support-RMVB.patch
